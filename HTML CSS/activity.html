@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align: center;">Punjab Tourism</h1>
+        <hr>
+    </header>
+    <nav style="text-align: center;">
+        <a href="#Home" style="margin-right: 150px;margin-right: 200px;">Home</a>
+        <a href="#About " style="margin-right: 150px;margin-right: 200px;">About</a>
+        <a href="#Contact" style="margin-right: 150px;margin-right: 200px;">Contact</a>
+    </nav>
+    <main>
+        <div id="Home" style=" margin: 10px; border-style: inset;">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://www.holidify.com/images/compressed/1250.jpg" class="d-block w-100"
+                            alt="Golden Temple" height="550px">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.tripsavvy.com/thmb/H379Fp9K5SkIDZ4gOvB3he9MNME=/2125x1411/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-535178674-5a569b8b5b6e240038ed004f.jpg"
+                            class="d-block w-100" alt="..."height="550px">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://external-preview.redd.it/5f9GDuiYHqbCGL_aWxSy-ZmJq20QupLNZxJyIgQK1tw.jpg?auto=webp&s=e2c36fdf6e2d0373c7f3c66e9a8c8283ab6c599b"
+                            class="d-block w-100" alt="..."height="550px">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+        <hr>
+        <div id="About" style="font-size: 20px; font-weight: 100; font-style: italic;">
+            <h3>About </h3>
+            <p>
+                The history of Punjab has witnessed the migration and settlement of different tribes of people with different cultures and ideas, forming a civilisational melting pot. The ancient Indus Valley civilisation flourished in the region until its decline around 1900 BCE.Punjab was enriched during the height of the Vedic period, but declined in predominance with the rise of the Mahajanapadas.The region formed the frontier of initial empires during antiquity including Alexander's and the Maurya empires.  It was subsequently conquered by the Kushan Empire, Gupta Empire, and then Harsha's Empire.  Punjab continued to be settled by nomadic people; including the Huna, Turkic and the Mongols. Punjab came under Muslim rule c. 1000 CE, and was part of the Delhi Sultanate and the Mughal Empire. Sikhism, based on the teachings of Sikh Gurus, emerged between the 15th and 17th centuries. Conflicts between the Mughals and the later Sikh Gurus precipitated a militarisation of the Sikhs, resulting in the formation of a confederacy after the weakening of the Mughal Empire, which competed for control with the larger Durrani Empire. This confederacy was united in 1801 by Maharaja Ranjit Singh, forming the Sikh Empire.
+
+            </p>
+        </div>
+        <hr>
+        <div id="Contact" style="background-color:chocolate; color: rgb(72, 0, 255);font-size: 20px;">
+            <form action="login.php" method="post"><b>Contact Us</b></form>
+            <label>First Name:</label>
+            <input type="text" name="fname" placeholder="Enter the First Name" required />
+            <br><br>
+            <label>Last Name:</label>
+            <input type="text" name="lname" placeholder="Enter the Last Name" required />
+            <br><br>
+            <label>EMail:</label>
+            <input type="email" name="email" placeholder="abc@gmail.com" /><br>
+            <label>Message Your Query -></label>
+            <textarea rows="3" cols="15"></textarea><br>
+            <button class="btn btn-primary w-50" type="submit" name="submit">Submit</button>
+
+            <br><br>
+
+        </div>
+        <hr>
+        <label><h3>Places to visit --->></h3></label>
+        <select style="margin-left: 30px;">
+            <option value="art"><h3>Amritsar</h3></option>
+            <option value="bnd"><h3>Bhatinda</h3></option>
+            <option value="chd"><h3>Chandigarh</h3></option>
+            <option value="jld"><h3>Jalandar</h3></option>
+            <option value="ptl"><h3>Patiala</h3></option>
+        </select><br>
+        <a href="#top"><h3>^</h3></a>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>

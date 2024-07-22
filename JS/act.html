@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        class Account {
+            constructor(acc_hname, acc_no, balance) {
+
+                this.acc_hname = acc_hname;
+                this.acc_no = acc_no;
+                this.balance = balance;
+            }
+            deposit(amount) {
+                console.log("Your have credited "+ amount +". Your Current balance is "+(this.balance+amount));
+            }
+            wihtdraw(money) {
+                if(money>this.balance){
+                    console.log("You have No sufficient amount");
+                }else{
+                    console.log("Your have withdraw"+money+"Your Balance is"+(this.balance-money));
+                }
+            }
+            checkbalance(){
+                console.log("Your Balance is:" + this.balance);
+            }
+        }
+        const amou= new Account('Unknown',8765432,5000);
+        amou.deposit(5000);
+        amou.wihtdraw(10000); 
+    </script>
+</body>
+
+</html>
